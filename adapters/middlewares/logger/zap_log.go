@@ -6,7 +6,8 @@ import (
 	"io"
 	"io/ioutil"
 	"log"
-	"vspro/drivers/configs"
+
+	"github.com/osechiman/BulltienBoard/drivers/configs"
 
 	"github.com/google/uuid"
 

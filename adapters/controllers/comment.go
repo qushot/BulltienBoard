@@ -1,11 +1,11 @@
 package controllers
 
 import (
-	"vspro/adapters/gateways"
-	"vspro/entities"
-	"vspro/entities/errorobjects"
-	"vspro/entities/valueobjects"
-	"vspro/usecases"
+	"github.com/osechiman/BulltienBoard/adapters/gateways"
+	"github.com/osechiman/BulltienBoard/entities"
+	"github.com/osechiman/BulltienBoard/entities/errorobjects"
+	"github.com/osechiman/BulltienBoard/entities/valueobjects"
+	"github.com/osechiman/BulltienBoard/usecases"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator"

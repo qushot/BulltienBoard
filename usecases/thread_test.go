@@ -4,9 +4,10 @@ import (
 	"reflect"
 	"sort"
 	"testing"
-	"vspro/adapters/gateways"
-	"vspro/entities"
-	"vspro/entities/valueobjects"
+
+	"github.com/osechiman/BulltienBoard/adapters/gateways"
+	"github.com/osechiman/BulltienBoard/entities"
+	"github.com/osechiman/BulltienBoard/entities/valueobjects"
 )
 
 func TestNewThreadUsecase(t *testing.T) {

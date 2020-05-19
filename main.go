@@ -1,6 +1,6 @@
 package main
 
-import "vspro/drivers/web/api"
+import "github.com/osechiman/BulltienBoard/drivers/web/api"
 
 func main() {
 	api.Listen()

@@ -1,9 +1,9 @@
 package usecases
 
 import (
-	"vspro/entities"
-	"vspro/entities/errorobjects"
-	"vspro/entities/valueobjects"
+	"github.com/osechiman/BulltienBoard/entities"
+	"github.com/osechiman/BulltienBoard/entities/errorobjects"
+	"github.com/osechiman/BulltienBoard/entities/valueobjects"
 )
 
 const CommentLimit = 1000

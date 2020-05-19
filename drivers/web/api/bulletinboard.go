@@ -2,9 +2,10 @@ package api
 
 import (
 	"net/http"
-	"vspro/adapters/controllers"
-	"vspro/adapters/gateways"
-	"vspro/adapters/presenters"
+
+	"github.com/osechiman/BulltienBoard/adapters/controllers"
+	"github.com/osechiman/BulltienBoard/adapters/gateways"
+	"github.com/osechiman/BulltienBoard/adapters/presenters"
 
 	"github.com/gin-gonic/gin"
 )

@@ -1,8 +1,8 @@
 package usecases
 
 import (
-	"vspro/entities"
-	"vspro/entities/valueobjects"
+	"github.com/osechiman/BulltienBoard/entities"
+	"github.com/osechiman/BulltienBoard/entities/valueobjects"
 )
 
 // ThreadRepositorer は外部データソースに存在するentities.Threadを操作する際に利用するインターフェースです。

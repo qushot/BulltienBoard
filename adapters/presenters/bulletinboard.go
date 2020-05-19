@@ -2,7 +2,8 @@ package presenters
 
 import (
 	"net/http"
-	"vspro/entities"
+
+	"github.com/osechiman/BulltienBoard/entities"
 )
 
 // BulletinBoardPresenter はentities.BulletinBoardを外部へ渡す為にデータの変換を行います。

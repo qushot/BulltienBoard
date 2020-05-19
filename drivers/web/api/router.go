@@ -2,10 +2,11 @@ package api
 
 import (
 	"net/http"
-	"vspro/adapters/middlewares/logger"
-	"vspro/adapters/presenters"
-	"vspro/drivers/configs"
-	"vspro/entities/errorobjects"
+
+	"github.com/osechiman/BulltienBoard/adapters/middlewares/logger"
+	"github.com/osechiman/BulltienBoard/adapters/presenters"
+	"github.com/osechiman/BulltienBoard/drivers/configs"
+	"github.com/osechiman/BulltienBoard/entities/errorobjects"
 
 	"github.com/gin-gonic/gin"
 )

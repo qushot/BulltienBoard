@@ -3,7 +3,8 @@ package entities
 import (
 	"reflect"
 	"testing"
-	"vspro/entities/valueobjects"
+
+	"github.com/osechiman/BulltienBoard/entities/valueobjects"
 )
 
 func TestNewBulletinBoard(t *testing.T) {
